@@ -1,4 +1,4 @@
-<h1>Reversi</h1>
+<h1>OTHELLO</h1>
 
 ### Table of Contents
 - [Game Rules and Instructions](#game-rules-and-Instructions)
@@ -9,7 +9,7 @@
 ### Game rules and Instructions
 <a href="https://www.mastersofgames.com/rules/reversi-othello-rules.htm#:~:text=Each%20piece%20played%20must%20be,to%20match%20the%20player's%20colour.">Rules</a>
 ### Project Description
-This program is an implementation of Reversi (OTHELLO) game with python (Pygame) . </br>
+This program is an implementation of OTHELLO game with python (Pygame) . </br>
 It can be played in Both single-player and Multiplayer mode.
 </br>
 The heart of the AI is an alpha-beta algorithm. you can change Depth in the main function. </br>Additionally, the Min-Max algorithm is implemented and can be used instead of alpha-beta.
