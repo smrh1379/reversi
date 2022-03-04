@@ -36,6 +36,9 @@ on board features:
 2. Mobility: number of available moves.
 3. Piece Difference: proportion of the pieces on the board that are yours.
 4. Value Matrix: score based on relative value of positions taken.
+### Genetic Algorithm
+Genetic Algorithm and machine learning was used to make Heuristic parameters better.
+In the begining
 ### Project Link
 - [reversi](https://github.com/smrh1379/reversi)
 
