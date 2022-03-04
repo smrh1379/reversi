@@ -6,8 +6,21 @@
 - [How to Run](#how-to-run)
 - [heuristics](#heuristic)
 - [Genetic Algorithm](#Genetic-Algorithm)
-### Game rules and Instructions
-<a href="https://www.mastersofgames.com/rules/reversi-othello-rules.htm#:~:text=Each%20piece%20played%20must%20be,to%20match%20the%20player's%20colour.">Rules</a>
+### Game rules and Instructions <a href="https://www.ultraboardgames.com/othello/game-rules.php">Rules</a>
+![image](https://user-images.githubusercontent.com/75033638/156724182-bf117e3a-e422-4795-99ba-fa5c6fa7336c.png)</br>
+The board will start with 2 black discs and 2 white discs at the centre of the board.</br>
+They are arranged with black forming a North-East to South-West direction.</br>
+White is forming a North-West to South-East direction.</br>
+Each player gets 32 discs and black always starts the game.</br>
+Then the game alternates between white and black until:</br>
+
+one player can not make a valid move to outflank the opponent.</br>
+both players have no valid moves.
+When a player has no valid moves, he pass his turn and the opponent continues.</br>
+
+A player can not voluntarily forfeit his turn.</br>
+
+When both players can not make a valid move the gane ends.
 ### Project Description
 This program is an implementation of OTHELLO game with python (Pygame) . </br>
 It can be played in Both single-player and Multiplayer mode.
@@ -25,3 +38,4 @@ on board features:
 4. Value Matrix: score based on relative value of positions taken.
 ### Project Link
 - [reversi](https://github.com/smrh1379/reversi)
+
